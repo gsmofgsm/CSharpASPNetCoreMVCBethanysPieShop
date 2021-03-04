@@ -34,7 +34,7 @@ namespace BethanysPieShop
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            app.UseStaticFiles(); // under wwwroot
 
             app.UseRouting();
 
