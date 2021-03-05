@@ -53,6 +53,7 @@ namespace BethanysPieShop
             app.UseSession(); // make sure before UseRouting
 
             app.UseRouting();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
